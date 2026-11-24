@@ -1,7 +1,7 @@
 {
   "name": "hans-techy-session-generator",
   "version": "2.0.0",
-  "description": "Session Generator for HANS TECHY V2",
+  "description": "Pair Code & Short Session Generator for HANS TECHY V2",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,11 +11,12 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.18",
-    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "fs-extra": "^11.2.0",
     "mongodb": "^6.8.0",
+    "node-cache": "^5.1.2",
     "pino": "^8.19.0"
   }
 }
