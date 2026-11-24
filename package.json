@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "pino": "^8.19.0",
+    "pg": "^8.13.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
